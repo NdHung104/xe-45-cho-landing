@@ -1,4 +1,5 @@
 export const CONTACT = {
-  phone: "090xxxxxxx",
-  zalo: "https://zalo.me/090xxxxxxx",
+  phone: "0962603819",
+  zalo: "https://zalo.me/0962603819",
+  email: "biga5102@gmail.com",
 };

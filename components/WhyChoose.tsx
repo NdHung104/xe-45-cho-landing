@@ -33,7 +33,7 @@ export default function WhyChoose() {
             <h2 className="text-blue-600 font-bold tracking-widest uppercase text-sm mb-3">
               Giá trị cốt lõi
             </h2>
-            <h3 className="text-4xl md:text-5xl font-black text-gray-900">
+            <h3 className="text-4xl md:text-5xl font-black text-slate-900">
               Tại sao hàng nghìn khách hàng tin tưởng chúng tôi?
             </h3>
           </div>
@@ -42,7 +42,7 @@ export default function WhyChoose() {
               {[1, 2, 3, 4].map((i) => (
                 <div
                   key={i}
-                  className="w-12 h-12 rounded-full border-4 border-white bg-gray-200 overflow-hidden"
+                  className="w-12 h-12 rounded-full border-4 border-white bg-slate-200 overflow-hidden"
                 >
                   <img src={`https://i.pravatar.cc/150?u=${i}`} alt="User" />
                 </div>
@@ -79,18 +79,18 @@ export default function WhyChoose() {
 
               {/* Checkmark icon for added trust */}
               <CheckCircle2
-                className="absolute top-8 right-8 text-gray-200 group-hover:text-blue-500 transition-colors"
+                className="absolute top-8 right-8 text-slate-200 group-hover:text-blue-500 transition-colors"
                 size={24}
               />
 
-              <h4 className="text-2xl font-bold text-gray-900 mb-3">
+              <h4 className="text-2xl font-bold text-slate-900 mb-3">
                 {reason.title}
               </h4>
 
-              <p className="text-gray-600 leading-relaxed">{reason.desc}</p>
+              <p className="text-slate-600 leading-relaxed">{reason.desc}</p>
 
               {/* Bottom line decor */}
-              <div className="mt-8 w-12 h-1 bg-gray-200 group-hover:w-full group-hover:bg-blue-600 transition-all duration-500" />
+              <div className="mt-8 w-12 h-1 bg-slate-200 group-hover:w-full group-hover:bg-blue-600 transition-all duration-500" />
             </motion.div>
           ))}
         </div>

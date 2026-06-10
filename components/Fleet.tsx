@@ -12,7 +12,7 @@ const FEATURES = [
 
 export default function Fleet() {
   return (
-    <section id="fleet" className="py-24 bg-gray-50 overflow-hidden">
+    <section id="fleet" className="py-24 bg-slate-50 overflow-hidden">
       <div className="container mx-auto px-6">
         {/* Header Section */}
         <div className="text-center mb-16">
@@ -26,11 +26,11 @@ export default function Fleet() {
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            className="text-4xl md:text-5xl font-black text-gray-900 mt-3 mb-6"
+            className="text-4xl md:text-5xl font-black text-slate-900 mt-3 mb-6"
           >
             Đội Xe <span className="text-blue-600">Universe</span> 45 Chỗ
           </motion.h2>
-          <p className="text-gray-600 max-w-2xl mx-auto text-lg leading-relaxed">
+          <p className="text-slate-600 max-w-2xl mx-auto text-lg leading-relaxed">
             Dòng xe Hyundai Universe đời mới nhất, được mệnh danh là "chuyên cơ
             mặt đất" với hệ thống giảm xóc bầu hơi siêu êm ái.
           </p>
@@ -72,10 +72,10 @@ export default function Fleet() {
             className="space-y-8"
           >
             <div>
-              <h3 className="text-3xl font-bold text-gray-900 mb-4 flex items-center gap-3">
+              <h3 className="text-3xl font-bold text-slate-900 mb-4 flex items-center gap-3">
                 <Shield className="text-blue-600" /> Tiện Nghi Cao Cấp
               </h3>
-              <p className="text-gray-600 text-lg">
+              <p className="text-slate-600 text-lg">
                 Xe được trang bị đầy đủ các tính năng an toàn và giải trí hiện
                 đại, giúp chuyến đi dài trở nên thư giãn hơn bao giờ hết.
               </p>
@@ -85,12 +85,12 @@ export default function Fleet() {
               {FEATURES.map((item, idx) => (
                 <div
                   key={idx}
-                  className="flex items-center gap-3 p-4 bg-white rounded-2xl border border-gray-100 shadow-sm hover:shadow-md transition-shadow"
+                  className="flex items-center gap-3 p-4 bg-white rounded-2xl border border-slate-100 shadow-sm hover:shadow-md transition-shadow"
                 >
                   <div className="text-blue-600 bg-blue-50 p-2 rounded-lg">
                     {item.icon}
                   </div>
-                  <span className="font-semibold text-gray-700 text-sm">
+                  <span className="font-semibold text-slate-700 text-sm">
                     {item.label}
                   </span>
                 </div>

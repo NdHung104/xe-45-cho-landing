@@ -10,7 +10,7 @@ export default function Home() {
     <main className="">
       <Hero />
 
-      <section id="services" className=" bg-gray-50">
+      <section id="services" className=" bg-slate-50">
         <Services />
       </section>
 
@@ -18,7 +18,7 @@ export default function Home() {
         <WhyChoose />
       </section>
 
-      <section id="fleet" className=" bg-gray-50">
+      <section id="fleet" className=" bg-slate-50">
         <Fleet />
       </section>
 

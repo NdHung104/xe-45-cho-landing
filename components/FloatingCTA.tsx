@@ -25,7 +25,7 @@ export default function FloatingCTA() {
             fill="currentColor"
             className="relative z-10"
           />
-          <span className="absolute right-16 bg-white text-gray-800 px-3 py-1 rounded-lg shadow-md text-sm font-bold opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap border border-gray-100">
+          <span className="absolute right-16 bg-white text-slate-800 px-3 py-1 rounded-lg shadow-md text-sm font-bold opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap border border-slate-100">
             Chat Zalo ngay
           </span>
         </motion.button>
@@ -39,7 +39,7 @@ export default function FloatingCTA() {
         >
           <div className="absolute inset-0 bg-blue-600 rounded-full animate-ping opacity-40" />
           <Phone size={28} fill="currentColor" className="relative z-10" />
-          <span className="absolute right-16 bg-gray-900 text-white px-3 py-1 rounded-lg shadow-md text-sm font-bold opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap">
+          <span className="absolute right-16 bg-slate-900 text-white px-3 py-1 rounded-lg shadow-md text-sm font-bold opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap">
             Gọi báo giá: {CONTACT.phone}
           </span>
         </motion.button>
@@ -72,7 +72,7 @@ export default function FloatingCTA() {
 
               <button
                 onClick={() => setShowPopup(null)}
-                className="absolute top-5 right-5 p-2 text-gray-400 hover:bg-gray-100 rounded-full transition"
+                className="absolute top-5 right-5 p-2 text-slate-400 hover:bg-slate-100 rounded-full transition"
               >
                 <X size={20} />
               </button>
@@ -91,11 +91,11 @@ export default function FloatingCTA() {
                 )}
               </div>
 
-              <h3 className="text-2xl font-black text-gray-900 mb-3">
+              <h3 className="text-2xl font-black text-slate-900 mb-3">
                 {showPopup === "phone" ? "Gọi Điện Thoại" : "Kết Nối Zalo"}
               </h3>
 
-              <p className="text-gray-600 mb-8 leading-relaxed">
+              <p className="text-slate-600 mb-8 leading-relaxed">
                 Đội ngũ điều hành xe luôn trực máy 24/7 để báo giá tốt nhất cho
                 quý khách.
               </p>
@@ -129,7 +129,7 @@ export default function FloatingCTA() {
 
                 <button
                   onClick={() => setShowPopup(null)}
-                  className="w-full py-2 text-gray-400 font-semibold hover:text-gray-600 transition"
+                  className="w-full py-2 text-slate-400 font-semibold hover:text-slate-600 transition"
                 >
                   Để sau
                 </button>

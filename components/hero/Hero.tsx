@@ -27,14 +27,14 @@ export default function Hero() {
             <span>DỊCH VỤ UY TÍN HÀNG ĐẦU</span>
           </div>
 
-          <h1 className="text-5xl md:text-7xl font-extrabold text-gray-900 leading-tight mb-6">
+          <h1 className="text-5xl md:text-7xl font-extrabold text-slate-900 leading-tight mb-6">
             Thuê Xe <span className="text-blue-600">45 Chỗ</span> <br />
             Chuyên Nghiệp
           </h1>
 
-          <p className="text-lg md:text-xl text-gray-600 mb-8 max-w-lg leading-relaxed">
+          <p className="text-lg md:text-xl text-slate-600 mb-8 max-w-lg leading-relaxed">
             Giải pháp di chuyển an toàn cho{" "}
-            <span className="font-semibold text-gray-800">
+            <span className="font-semibold text-slate-800">
               Học sinh, Công ty, Du lịch, Hợp đồng & Về quê.
             </span>{" "}
             Xe đời mới, tài xế tận tâm, giàu kinh nghiệm.
@@ -59,15 +59,15 @@ export default function Hero() {
           </div>
 
           {/* Trust Pilot / Stats */}
-          <div className="mt-10 flex items-center gap-6 border-t border-gray-100 pt-8">
+          <div className="mt-10 flex items-center gap-6 border-t border-slate-100 pt-8">
             <div>
-              <p className="text-2xl font-bold text-gray-900">100%</p>
-              <p className="text-sm text-gray-500">Hài lòng</p>
+              <p className="text-2xl font-bold text-slate-900">100%</p>
+              <p className="text-sm text-slate-500">Hài lòng</p>
             </div>
-            <div className="w-[1px] h-10 bg-gray-200" />
+            <div className="w-[1px] h-10 bg-slate-200" />
             <div>
-              <p className="text-2xl font-bold text-gray-900">24/7</p>
-              <p className="text-sm text-gray-500">Hỗ trợ</p>
+              <p className="text-2xl font-bold text-slate-900">24/7</p>
+              <p className="text-sm text-slate-500">Hỗ trợ</p>
             </div>
           </div>
         </motion.div>
@@ -108,9 +108,9 @@ export default function Hero() {
             >
               <button
                 onClick={() => setShowPopup(null)}
-                className="absolute top-4 right-4 p-2 hover:bg-gray-100 rounded-full transition"
+                className="absolute top-4 right-4 p-2 hover:bg-slate-100 rounded-full transition"
               >
-                <X size={24} className="text-gray-400" />
+                <X size={24} className="text-slate-400" />
               </button>
 
               <div className="text-center">
@@ -128,12 +128,12 @@ export default function Hero() {
                   )}
                 </div>
 
-                <h3 className="text-2xl font-bold text-gray-900 mb-2">
+                <h3 className="text-2xl font-bold text-slate-900 mb-2">
                   {showPopup === "phone"
                     ? "Liên hệ Hotline"
                     : "Kết nối qua Zalo"}
                 </h3>
-                <p className="text-gray-500 mb-8">
+                <p className="text-slate-500 mb-8">
                   Nhân viên tư vấn sẽ hỗ trợ bạn báo giá và đặt xe ngay lập tức.
                 </p>
 
@@ -155,7 +155,7 @@ export default function Hero() {
                   </a>
                   <button
                     onClick={() => setShowPopup(null)}
-                    className="w-full py-3 text-gray-500 font-medium hover:text-gray-800 transition"
+                    className="w-full py-3 text-slate-500 font-medium hover:text-slate-800 transition"
                   >
                     Để sau
                   </button>

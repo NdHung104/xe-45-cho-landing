@@ -34,11 +34,11 @@ export default function Gallery() {
                 Khoảnh khắc
               </span>
             </div>
-            <h2 className="text-4xl md:text-5xl font-black text-gray-900">
+            <h2 className="text-4xl md:text-5xl font-black text-slate-900">
               Hình Ảnh <span className="text-blue-600">Thực Tế</span>
             </h2>
           </div>
-          <p className="text-gray-500 max-w-sm text-center md:text-right">
+          <p className="text-slate-500 max-w-sm text-center md:text-right">
             Những hình ảnh chân thực nhất về đội xe và những chuyến đi đáng nhớ
             cùng khách hàng.
           </p>
@@ -53,7 +53,7 @@ export default function Gallery() {
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true }}
               transition={{ delay: i * 0.1 }}
-              className={`relative group overflow-hidden rounded-[2rem] bg-gray-100 ${img.size}`}
+              className={`relative group overflow-hidden rounded-[2rem] bg-slate-100 ${img.size}`}
             >
               {/* Image */}
               <img

@@ -14,20 +14,20 @@ export default function Footer() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-gray-900 text-gray-300 pt-16 pb-8">
+    <footer className="bg-slate-900 text-slate-300 pt-16 pb-8">
       <div className="container mx-auto px-6">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
           {/* Cột 1: Giới thiệu */}
           <div className="space-y-6">
             <a href="#top" className="flex items-center gap-2 group">
               <div className="bg-blue-600 text-white p-2 rounded-lg">
-                <span className="font-black text-xl">45</span>
+                <span className="font-black text-xl">TH</span>
               </div>
               <span className="text-xl font-bold tracking-tight text-white">
-                XE DU LỊCH
+                DU LỊCH TÀI HƯNG
               </span>
             </a>
-            <p className="text-sm leading-relaxed text-gray-400">
+            <p className="text-sm leading-relaxed text-slate-400">
               Chuyên cung cấp giải pháp vận tải hành khách chất lượng cao. Đội
               xe đời mới, tài xế chuyên nghiệp, phục vụ tận tâm trên mọi nẻo
               đường.
@@ -35,13 +35,13 @@ export default function Footer() {
             <div className="flex gap-4">
               <a
                 href="#"
-                className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-blue-600 hover:text-white transition-all"
+                className="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center hover:bg-blue-600 hover:text-white transition-all"
               >
                 <Facebook size={20} />
               </a>
               <a
                 href={CONTACT.zalo}
-                className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-blue-500 hover:text-white transition-all"
+                className="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center hover:bg-blue-500 hover:text-white transition-all"
               >
                 <MessageCircle size={20} />
               </a>
@@ -61,7 +61,7 @@ export default function Footer() {
                     >
                       <ChevronRight
                         size={14}
-                        className="text-gray-600 group-hover:text-blue-500"
+                        className="text-slate-600 group-hover:text-blue-500"
                       />
                       {item}
                     </a>
@@ -88,10 +88,7 @@ export default function Footer() {
             <ul className="space-y-4 text-sm">
               <li className="flex items-start gap-3">
                 <MapPin size={20} className="text-blue-500 shrink-0" />
-                <span>
-                  123 Đường Số 1, Quận 1, <br />
-                  Thành phố Hồ Chí Minh
-                </span>
+                <span>Đang cập nhật địa chỉ...</span>
               </li>
               <li className="flex items-center gap-3">
                 <Phone size={18} className="text-blue-500 shrink-0" />
@@ -105,10 +102,10 @@ export default function Footer() {
               <li className="flex items-center gap-3">
                 <Mail size={18} className="text-blue-500 shrink-0" />
                 <a
-                  href="mailto:info@xedulich45.com"
+                  href={`mailto:${CONTACT.email}`}
                   className="hover:text-white transition-colors"
                 >
-                  info@xedulich45.com
+                  {CONTACT.email}
                 </a>
               </li>
             </ul>
@@ -116,13 +113,13 @@ export default function Footer() {
         </div>
 
         {/* Bản quyền */}
-        <div className="pt-8 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-gray-500">
-          <p>© {currentYear} Dịch vụ xe du lịch 45 chỗ. All rights reserved.</p>
+        <div className="pt-8 border-t border-slate-800 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-slate-500">
+          <p>© {currentYear} Du lịch Tài Hưng. All rights reserved.</p>
           <div className="flex gap-6">
-            <a href="#" className="hover:text-gray-300">
+            <a href="#" className="hover:text-slate-300">
               Chính sách bảo mật
             </a>
-            <a href="#" className="hover:text-gray-300">
+            <a href="#" className="hover:text-slate-300">
               Điều khoản sử dụng
             </a>
           </div>
